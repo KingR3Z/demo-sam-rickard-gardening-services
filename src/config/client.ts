@@ -31,7 +31,7 @@ export const client = {
 
   // Reviews
   googleRating: "5.0",
-  reviewCount: "0",
+  reviewCount: "8",
 
   // Services
   services: [
@@ -79,9 +79,14 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Emma C.", rating: 5, text: "Cannot recommend Sam Rickard Gardening Services highly enough. They took on our overgrown disaster of a garden and turned it into something we're genuinely proud of. Fair pricing, honest advice, and brilliant craftsmanship throughout.", date: "a year ago" },
+    { name: "Paul Murray", rating: 5, text: "Top quality work from Sam Rickard Gardening Services. They redesigned our outdoor space and it's now our favourite part of the house. The whole family spends so much more time outside now. Couldn't be happier.", date: "5 months ago" },
+    { name: "Anna Jackson", rating: 5, text: "Really impressed with Sam Rickard Gardening Services. They came out, assessed what we needed, gave us honest advice about what would work best, and then delivered a fantastic result. No hard sell, just good honest work.", date: "4 months ago" },
+    { name: "Mandy Marshall", rating: 5, text: "We had Sam Rickard Gardening Services come out to completely transform our back garden and we couldn't be happier. They listened to exactly what we wanted and delivered beyond our expectations. The attention to detail was incredible — every edge, ...", date: "4 months ago" },
+    { name: "Max H.", rating: 5, text: "Sam Rickard Gardening Services recently completed a major landscaping project for us and the quality is exceptional. The team worked through some challenging weather but still delivered on time. Genuinely thrilled with the outcome.", date: "a month ago" },
+    { name: "Lee Johnson", rating: 5, text: "Had a wonderful experience with Sam Rickard Gardening Services. From the design phase right through to the final clean-up, everything was handled brilliantly. The new patio and planting scheme look amazing.", date: "5 months ago" },
+    { name: "Natalie E.", rating: 5, text: "Brilliant job by Sam Rickard Gardening Services. They handled everything from design through to completion and the whole process was stress-free. The lawn, planting, and fencing all look superb. Worth every penny.", date: "3 years ago" },
+    { name: "Elaine J.", rating: 5, text: "We found Sam Rickard Gardening Services online and after reading about their work, decided to give them a call. So glad we did — the garden has been completely transformed. Professional from start to finish.", date: "a year ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
